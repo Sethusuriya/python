@@ -1,0 +1,5 @@
+a=input("enter the string: ")
+b=input("enter the string: ")
+c=list(set(a)&set(b))
+d=len(c)
+print(d)
